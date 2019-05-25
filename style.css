@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /*================================================
  *  CSSリセット
@@ -19,9 +19,9 @@ h2 {
 }
 
 nav{
-	margin-top:-180px;
+	margin-top:-80px;
 	padding: 0;
-	float: top;
+	float:top;
 	position:fixed;
 	}
 nav ul{
@@ -29,13 +29,12 @@ nav ul{
 }
  nav li{
 	 list-style-type: none;
-	 margin:10px 5px;
+	 margin:10px 10px;
  }
 	nav li a{
 		display: block;
 		width: 70px;
 		line-height: 70px;
-		margin: 2px;
 		color: #ffffff;
 		background: #000000;
 		text-decoration: none;
@@ -46,11 +45,18 @@ nav ul{
  header{
 	position: fixed;
 	background: #000000;
+	padding: 0px;
 	width: 100%;
 	top: 0px;
 	left: 0px;
 	z-index: 9999;
  }
+
+header h1{
+	color:#ffffff;
+	text-align: center;
+	font-size: 40px;
+}
 
  a:hover {
 	color: #76abe9;
@@ -64,6 +70,12 @@ article{
 	margin-top: 200px;
 }
 
+div.contents{
+    margin-top:40px;
+	padding:20px;
+	text-align: center;
+}
+
  body{
 	 background-color: #b0fff2;
  }
@@ -74,3 +86,8 @@ article{
 	width: 100%;
 	float:bottom;
  }
+ a.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
