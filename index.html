@@ -12,24 +12,25 @@
   <nav>
       <ul>
         <li>
-          <a href="#contact">contact</a>
-        </li>   
-        <li>
-          <a href="#about">about</a>
+          <a href="#home">home</a>
         </li>
         <li>
           <a href="#works">works</a>
         </li>
         <li>
-          <a href="#home">home</a>
+          <a href="#about">about</a>
         </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>   
       </ul>
     </nav>
+
   <article>
           <!-- -home--- -->
           <a id="home" class="anchor"></a>
           <div class="contents">
-              <img src="dkhkth.jpg" id="img">
+              <img src="web用横1700グラデ.png" id="img">
               <h1>Home</h1>
               <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
           </div>
@@ -64,16 +65,4 @@
         something
       </footer>
     </body>
-    <script type="text/javascript">
-      $(function(){
-        $('a[href^=#]').click(function(){
-          var speed = 500;
-          var href= $(this).attr("href");
-          var target = $(href == "#" || href == "" ? 'html' : href);
-          var position = target.offset().top;
-          $("html, body").animate({scrollTop:position}, speed, "swing");
-          return false;
-        });
-      });
-      </script>
     </html>

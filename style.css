@@ -24,6 +24,7 @@ nav{
 	float:top;
 	position:fixed;
 	background-color: #d17b7b;
+	z-index: 9999;
 	}
 nav ul{
 	
@@ -63,9 +64,6 @@ header h1{
 	color: #76abe9;
 }
 
-#img{
-	border-radius: 100%;
-}
 
 article{
 	margin-top: 200px;
@@ -73,7 +71,6 @@ article{
 
 div.contents{
     margin-top:40px;
-	padding:20px;
 	text-align: center;
 }
 
