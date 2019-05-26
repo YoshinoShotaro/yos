@@ -7,9 +7,9 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 h1{
 	font-size: 100px;
+	color:#4b341d;
 }
 h2 {
-	background-color: chocolate;
 	margin-top: 50px;
 	margin-bottom: 0.5em;
 	font-size: 28px;
@@ -23,7 +23,6 @@ nav{
 	padding: 0px;
 	float:top;
 	position:fixed;
-	background-color: #d17b7b;
 	z-index: 9999;
 	}
 nav ul{
@@ -37,8 +36,8 @@ nav ul{
 		display: block;
 		width: 70px;
 		line-height: 70px;
-		color: #ffffff;
-		background: #000000;
+		color: #D8D8D8;
+		background: #FF5E5B;
 		text-decoration: none;
 		text-align: center;
 		border-radius:50%
@@ -46,7 +45,7 @@ nav ul{
 
  header{
 	position: fixed;
-	background: #000000;
+	background: #00CECB;
 	padding: 0px;
 	width: 100%;
 	top: 0px;
@@ -54,10 +53,8 @@ nav ul{
 	z-index: 9999;
  }
 
-header h1{
-	color:#ffffff;
-	text-align: center;
-	font-size: 40px;
+header a{
+	box-align:center;
 }
 
  a:hover {
@@ -75,12 +72,12 @@ div.contents{
 }
 
  body{
-	 background-color: #b0fff2;
+	 background-color: #FFFFEA;
  }
  footer{
 	margin:0px;
 	padding: 0px;
-	background: #ffffff;
+	color: #7e7e7e;
 	width: 100%;
 	float:bottom;
 	text-align: center;
@@ -91,3 +88,10 @@ div.contents{
     padding-top: 70px;
     margin-top: -70px;
 }
+hr.style {
+	height: 8px;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="hsla(0, 0%, 65%, 1.0)"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"/><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"/></svg>');
+	background-size: 3px 3px;
+	width: 65%;
+	color:#ff895b; 
+  }
