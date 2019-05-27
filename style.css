@@ -51,11 +51,16 @@ nav ul{
 	top: 0px;
 	left: 0px;
 	z-index: 9999;
+	text-align: center;
  }
 
-header a{
-	box-align:center;
+header logo{
+	margin:0 auto;
+	text-align: center;
+	
 }
+
+
 
  a:hover {
 	color: #76abe9;
@@ -88,10 +93,3 @@ div.contents{
     padding-top: 70px;
     margin-top: -70px;
 }
-hr.style {
-	height: 8px;
-	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="hsla(0, 0%, 65%, 1.0)"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"/><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"/></svg>');
-	background-size: 3px 3px;
-	width: 65%;
-	color:#ff895b; 
-  }
