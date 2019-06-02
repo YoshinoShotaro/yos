@@ -45,6 +45,7 @@ nav{
 	background: #00CECB;
 	padding: 0px;
 	width: 100%;
+	height: 80px;
 	top: 0px;
 	left: 0px;
 	z-index: 9999;
@@ -88,8 +89,10 @@ div.contents p{
 }
 
 .hrstyle{
-	width:75%;
-	height: 20px;
+	width:1600px;
+	max-width: 75%;
+	height: 10%;
+	min-height: 20px;
 	background-color:#FF5E5B;
 	border: none;
 }
