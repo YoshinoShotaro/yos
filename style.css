@@ -86,3 +86,10 @@ div.contents{
 div.contents p{
 	font-size: 19px;
 }
+
+.hrstyle{
+	width:1500px;
+	height: 20px;
+	background-color:#FF5E5B;
+	border: none;
+}
