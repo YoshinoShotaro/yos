@@ -8,14 +8,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 h1{
 	font-size: 100px;
 	color:#4b341d;
-}
-h2 {
-	margin-top: 50px;
-	margin-bottom: 0.5em;
-	font-size: 28px;
-	color: #333;
 	text-align: center;
-	line-height: 1.0;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
 }
 
 nav{
@@ -25,7 +23,7 @@ nav{
 	position:fixed;
 	z-index: 9999;
 	}
-	
+
  nav li{
 	 list-style-type: none;
 	 margin:10px 10px;
@@ -63,12 +61,19 @@ article{
 }
 
 div.contents{
-    margin-top:40px;
+	margin-top:40px;
 	text-align: center;
+	font-size: 20px;
+}
+
+p.summary{
+	line-height: 3;
+	font-size: 30px;
 }
 
  body{
 	 background-color: #FFFFEA;
+	 font-family: 'MS Sans Serif','Yu Gothic UI','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
  }
  footer{
 	margin:0px;
